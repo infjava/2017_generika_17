@@ -9,14 +9,14 @@ package generika;
  *
  * @author janik
  */
-class Klietka {
-    private Zviera zviera;
+class Klietka<E> {
+    private E zviera;
 
     public Klietka() {
         this.zviera = null;
     }
     
-    void vloz(Zviera zviera) {
+    void vloz(E zviera) {
         this.zviera = zviera;
     }
 
