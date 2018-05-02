@@ -16,6 +16,8 @@ public class Generika {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Klietka klietka = new Klietka();
+        klietka.vloz(new Kralik());
+        klietka.vypisObsah();
     }
-    
 }
