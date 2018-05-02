@@ -9,7 +9,7 @@ package generika;
  *
  * @author janik
  */
-public class Kralik extends Zviera implements Jedlo {
+public class Kralik extends Zviera implements Jedlo<Lev> {
 
     public Kralik() {
     }

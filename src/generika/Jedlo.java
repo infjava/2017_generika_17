@@ -9,6 +9,6 @@ package generika;
  *
  * @author janik
  */
-interface Jedlo {
+interface Jedlo<T extends Zviera> {
     
 }

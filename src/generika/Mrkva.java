@@ -9,7 +9,7 @@ package generika;
  *
  * @author janik
  */
-public class Mrkva implements Jedlo {
+public class Mrkva implements Jedlo<Kralik> {
 
     public Mrkva() {
     }
