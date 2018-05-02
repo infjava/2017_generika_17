@@ -22,5 +22,18 @@ public class Generika {
         klietka.vloz(new Lev());
         klietka.vlozPotravu(new Kralik());
         klietka.vypisObsah();
+        
+        /*** 2. PRIKLAD ***/
+        for (Integer cislo : new PostupnostCisel(1, 10)) {
+            System.out.println("- " + cislo);
+        }
+        
+        /* to iste ako:
+            Iterator<Integer> prst = new PostupnostCisel(1, 10).iterator();
+            while (prst.hasNext()) {
+                Integer cislo = prst.next();
+                System.out.println("- " + cislo);
+            }
+        */
     }
 }
