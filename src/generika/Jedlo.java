@@ -9,9 +9,6 @@ package generika;
  *
  * @author janik
  */
-public class Mrkva implements Jedlo {
-
-    public Mrkva() {
-    }
+interface Jedlo {
     
 }
