@@ -35,5 +35,11 @@ public class Generika {
                 System.out.println("- " + cislo);
             }
         */
+        
+        /*** 3. PRIKLAD (samostatne) ***/
+        System.out.println("Prvocisla po 100:");
+        for (Integer cislo : new Prvocisla(100)) {
+            System.out.println("- " + cislo);
+        }
     }
 }
