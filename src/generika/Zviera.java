@@ -9,9 +9,6 @@ package generika;
  *
  * @author janik
  */
-public class Kralik extends Zviera {
-
-    public Kralik() {
-    }
+class Zviera {
     
 }

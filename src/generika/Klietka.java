@@ -10,13 +10,13 @@ package generika;
  * @author janik
  */
 class Klietka {
-    private Kralik zviera;
+    private Zviera zviera;
 
     public Klietka() {
         this.zviera = null;
     }
     
-    void vloz(Kralik zviera) {
+    void vloz(Zviera zviera) {
         this.zviera = zviera;
     }
 
@@ -24,7 +24,8 @@ class Klietka {
         if (this.zviera == null) {
             System.out.println("Klietka je prazdna");
         } else {
-            System.out.println("Z klietky na teba mava kralik");
+            System.out.println("Z klietky na teba mava "
+                    + this.zviera.getClass().getSimpleName());
         }
     }
     
