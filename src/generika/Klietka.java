@@ -28,5 +28,9 @@ class Klietka<E extends Zviera> {
                     + this.zviera.getClass().getSimpleName());
         }
     }
+
+    void vlozPotravu(Mrkva mrkva) {
+        this.zviera.zjedz(mrkva);
+    }
     
 }

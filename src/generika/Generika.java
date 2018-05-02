@@ -17,9 +17,10 @@ public class Generika {
     public static void main(String[] args) {
         // TODO code application logic here
         //Klietka<Integer> klietka = new Klietka<Integer>();
-        Klietka<Lev> klietka = new Klietka<Lev>();
-        klietka.vloz(new Lev());
-        //klietka.vloz(new Kralik());
+        Klietka<Kralik> klietka = new Klietka<Kralik>();
+        //klietka.vloz(new Lev());
+        klietka.vloz(new Kralik());
+        klietka.vlozPotravu(new Mrkva());
         klietka.vypisObsah();
     }
 }

@@ -9,9 +9,9 @@ package generika;
  *
  * @author janik
  */
-class Zviera {
-    public void zjedz(Mrkva mrkva) {
-        System.out.println(this.getClass().getSimpleName()
-                + " ti dakuje");
+public class Mrkva {
+
+    public Mrkva() {
     }
+    
 }
