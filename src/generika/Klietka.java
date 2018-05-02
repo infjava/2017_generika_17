@@ -9,7 +9,7 @@ package generika;
  *
  * @author janik
  */
-class Klietka<E> {
+class Klietka<E extends Zviera> {
     private E zviera;
 
     public Klietka() {
